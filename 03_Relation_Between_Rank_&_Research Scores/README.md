@@ -1,0 +1,10 @@
+# Data story that you want to tell using the provided dataset
+I decided to explore the relationship between university rankings and research scores using the provided dataset. I was interested in finding out if universities with higher rankings tend to have higher research scores, and if so, what factors might contribute to this relationship. To begin my analysis, I first cleaned and preprocessed the data using Python and the Pandas library. Next, I used the Matplotlib library to create several visualizations that helped me better understand the data, including scatterplots and bar charts. Through my analysis, I discovered a positive correlation between university rankings and research scores, with factors such as faculty-to-student ratios and research expenditures also playing a significant role. Overall, I hope that my data story sheds light on the complex interplay between university rankings and research scores and encourages further exploration in this area.
+
+# Though process behind the data story
+One major reason is that research output is often seen as an important indicator of the quality and productivity of academic institutions. Additionally, research funding and collaborations are often influenced by a school's research output and reputation. Therefore, understanding the relationship between rank and research scores can provide insights into the overall performance and competitiveness of academic institutions. This information can also be useful for students and faculty members who are considering where to pursue their education or research.
+
+# Algorithm & Library Used
+Pandas library is used for data manipulation and analysis. It provides easy-to-use data structures and data analysis tools.
+Matplotlib.pyplot library is used for data visualization. It provides an interface to create a variety of charts and graphs.
+df['scores_research'].corr(df['rank']) function is used to calculate the correlation between 'scores_research' and 'rank'. The corr() function calculates the correlation between two variables using Pearson's correlation coefficient.
